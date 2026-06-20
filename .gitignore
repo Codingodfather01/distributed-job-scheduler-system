@@ -1,0 +1,71 @@
+HELP.md
+
+# Maven
+
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Generated JARs
+
+*.jar
+!maven-wrapper.jar
+
+# Logs
+
+*.log
+logs/
+
+# Environment Variables
+
+.env
+.env.*
+
+### STS
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA
+
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans
+
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code
+
+.vscode/
+
+### OS Files
+
+.DS_Store
+Thumbs.db
+
+### Docker
+
+docker-data/
+mysql_data/
+
+### Temporary Files
+
+*.tmp
+*.bak
+*~
