@@ -105,6 +105,10 @@ Stop the application:
 docker compose down
 ```
 
+## Architecture
+
+![Architecture](docs/architecture.png)
+
 ---
 
 ## Future Improvements
