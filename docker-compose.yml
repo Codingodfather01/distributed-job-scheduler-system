@@ -58,7 +58,7 @@ services:
       SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
       WORKER_ID: worker-1
 
-  # Uncomment this service only when you want to demonstrate multi-worker scheduling.
+  # Uncomment this service only when you want multi-worker scheduling.
   # scheduler-app-2:
   #   build: .
   #   container_name: scheduler-app-2
