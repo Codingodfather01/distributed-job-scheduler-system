@@ -55,6 +55,11 @@ This project helped me learn:
 * MySQL
 * Docker
 * Docker Compose
+* Redis integration
+* Kafka integration
+* Metrics and monitoring
+* Prometheus
+* Grafana dashboards
 
 ---
 
@@ -111,13 +116,6 @@ docker compose down
 
 ---
 
-## Future Improvements
-
-* Redis integration
-* Kafka integration
-* Metrics and monitoring
-* Prometheus
-* Grafana dashboards
 
 ---
 
