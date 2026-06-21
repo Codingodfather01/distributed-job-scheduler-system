@@ -29,6 +29,25 @@ The project also includes distributed system concepts such as worker heartbeats,
 
 ---
 
+
+## Known Limitations
+
+This project was built primarily to learn distributed systems and scheduling concepts.
+The following production-grade features are intentionally left for future versions:
+Authentication & Authorization
+Role-Based Access Control (RBAC)
+Rate Limiting
+API Gateway Integration
+SSRF Protection for callback URLs
+Advanced Input Validation
+Payload Size Limits
+Distributed Tracing
+HTTPS/TLS Configuration
+Secret Management
+CI/CD Pipelines
+Comprehensive Automated Testing
+These improvements are planned as future enhancements and can be tracked through GitHub Issues.
+
 ## Why I Built This
 
 Most beginner backend projects focus on CRUD operations and authentication.
