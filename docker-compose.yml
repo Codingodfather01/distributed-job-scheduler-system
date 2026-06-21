@@ -3,7 +3,7 @@ services:
     image: redis:7
     container_name: scheduler-redis
     ports:
-      - "6380:6379"
+      - "6379:6379"
 
   mysql:
     image: mysql:8
